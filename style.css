@@ -5,7 +5,48 @@ body{
   display: flex;
   justify-content: center;
 align-items: center;
-  flex-direction: 100vh; 
-margin: 0;
+  flex-direction: column;
+  height: 100vh; 
+  margin: 0;
   text-align: center;
+}
+button{
+  padding: 15px 35px;
+  border: none;
+  border-radius: 30px;
+  background: pink;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+#conteudo{
+  display: none;
+}
+img{
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+h1{
+  color: pink;
+  font-size: 45px;
+}
+h2{
+  color: #ffbc6c1;
+  max-width: 500px;
+}
+p{
+  max-width: 500px;
+  font-size: 18px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin: 10px;
+  color: #ffc0cb;
+  font-size: 18px
 }
