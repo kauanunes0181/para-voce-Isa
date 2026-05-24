@@ -5,8 +5,10 @@
     <title>Eu te amo Isa</title>
   </head>
   <body>
-    <button>Clique aqui ❤️</button>
-    <div class="conteudo">
+    <button onclick="mostrar()">
+      Clique aqui ❤️
+    </button>
+    <div id="conteudo">
      <img src="foto.jpg" alt="">
     <h1>Nossa historia❤️</h1>
     <h2>Você mudou meus dias.❤️</h2>
@@ -19,5 +21,10 @@
       <li>Pela forma que você me faz feliz</li>
     </ul>
     </div>
+    <script>
+      function mostrar(){
+        document.getElementById("conteudo").style.display = "block";
+      }
+    </script>
   </body>
 </html>
