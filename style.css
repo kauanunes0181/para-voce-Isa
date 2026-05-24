@@ -11,6 +11,11 @@ align-items: center;
   text-align: center;
   padding: 20px;
 }
+section{
+  background: linear-gradient(to bottom,
+                              #1a0f13,
+                              #2d1620);
+}
 button{
   padding: 15px 35px;
   border: none;
@@ -29,7 +34,7 @@ button:active{
   display: none;
 }
 img{
-  width: 100px;
+  width: 600px;
   max-width: 500px;
   border-radius: 25px;
   margin-top: 20px;
